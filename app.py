@@ -10,7 +10,10 @@ def hello_world():
 def excel():
     return '¡Excel!'
 
+@app.route('/Excel7')
+def excel7():
+    return '¡Excel7!'
+
 if __name__ == '__main__':
     app.run(debug=True)
-
 
