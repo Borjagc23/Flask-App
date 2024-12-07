@@ -4,3 +4,4 @@ touch .gitignore
 temp*
 tmp*
 *.bak
+.DS_Store
