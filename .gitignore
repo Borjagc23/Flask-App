@@ -1,0 +1,6 @@
+touch .gitignore
+# Archivos temporales
+*.tmp
+temp*
+tmp*
+*.bak
