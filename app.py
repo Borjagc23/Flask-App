@@ -6,7 +6,7 @@ app = Flask(__name__)
 def hello_world():
     return '¡Hola de nuevo, Mundo!'
 
-@app.route('/hola2')
+@app.route('/hola3')
 def excel():
     return '¡Hola desde Excel!'
 
@@ -21,6 +21,14 @@ def hello_flask():
 @app.route('/adios') # Nueva ruta para decir BYE
 def goodbye():
     return '¡Hasta luego!'
+
+@app.route('/adios3') # Nueva ruta para decir BYE
+def goodbye():
+    return '¡Hasta luego3!'
+
+@app.route('/adios4') # Nueva ruta para decir BYE
+def goodbye():
+    return '¡Hasta luego4!'
 
 if __name__ == '__main__':
     app.run(debug=True)
